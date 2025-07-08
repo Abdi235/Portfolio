@@ -4,17 +4,16 @@ import "./index.scss"
 
 const TechList = () => {
   const [devs] = useState([
-    { name: "Amazon Web Services (AWS)", progress: 100, className: "aws-progress", years: 2 },
-    { name: "Postman", progress: 100, className: "postman-progress", years: 2 },
-    { name: "Git", progress: 100, className: "github-progress", years: 2 },
-    { name: "Microsoft Azure DevOps", progress: 50, className: "azure-progress", years: 1 },
-    { name: "Docker", progress: 50, className: "docker-progress", years: 1 },
-    { name: "Power BI", progress: 100, className: "pbi-progress", years: 1 },
+    { name: "Amazon Web Services (AWS)", progress: 15, className: "aws-progress", years: 0.2 },
+    { name: "Postman", progress: 15, className: "postman-progress", years: 0.2 },
+    { name: "Git", progress: 35, className: "github-progress", years: 1 },
+    { name: "Docker", progress: 20, className: "docker-progress", years: 0.4 },
+    
   ]);
 
   return (
     <div>
-      <h2>Development Tools</h2>
+      <h2>Developer Tools</h2>
       <ul>
         {devs.map((dev, index) => (
           <li key={index}>
