@@ -1,14 +1,15 @@
 import { useEffect, useState } from 'react';
 import Loader from 'react-loaders';
 import { Link } from 'react-router-dom';
-import LogoE from '../../assets/images/E.png';
+import LogoM from '../../assets/images/Mlogo.png';
+
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 import Logo from './Logo';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = "mohamed, ".split("");
+    const nameArray = "ohamed, ".split("");
     const jobArray = "software engineer.".split("");
 
     useEffect(() => {
@@ -31,7 +32,7 @@ const Home = () => {
                 <br /> 
                 <span className = {`${letterClass} _10`}>I</span>
                 <span className = {`${letterClass} _11`}>'m</span>
-                <img src={LogoE} alt = "developer" />
+                <img src={LogoM} alt = "developer" />
                 <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={12} />
                 <br /> 
                 <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={15} /> 
