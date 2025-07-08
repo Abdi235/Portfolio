@@ -29,7 +29,9 @@ const About = () => {
                         <AnimatedLetters letterClass={letterClass}  strArray = {"About me".split("")} idx={15}/>
                     </h1>
                     <p>
-                    I am a very ambitious full-stack developer with a unique background that has prepared me to be a team player who communicates effectively, faces problems analytically and has the technical skills to tackle any challenge. 
+                      I am a passionate Software Engineer with 4 years of hands-on coding experience, driven by a strong motivation to solve real-world problems through technology. My journey has shaped me into a team player who communicates effectively, tackles problems analytically, and adapts quickly to new tools and environments. I’m eager and ready to apply my full-stack development skills in a professional setting where I can continue to grow, contribute meaningfully, and build impactful solutions.
+
+
                     <br/>
                     <DevList />
                     <Link to="/about" className="flat-button">LANGUAGES</Link>
