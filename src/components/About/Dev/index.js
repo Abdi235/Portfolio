@@ -1,4 +1,5 @@
-import "./index.scss"; 
+import ProgressBar from '../ProgressBar';
+
 import AnimatedLetters from "../../AnimatedLetters"
 import { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
