@@ -5,12 +5,12 @@ import "./index.scss"
 const LanguageList = () => {
   const [languages] = useState([
     { name: "Java", progress: 100, className: "java-progress", years: 4 },
-    { name: "Python", progress: 75, className: "python-progress", years: 1 },
-    { name: "HTML/CSS/JS", progress: 75, className: "web-progress", years: 3 },
+    { name: "Python", progress: 50, className: "python-progress", years: 1 },
+    { name: "HTML/CSS/JS", progress: 85, className: "web-progress", years: 3 },
     { name: "SQL", progress: 37.5, className: "sql-progress", years: 1 },
-    { name: "C", progress: 25, className: "c-progress", years: 1 },
-    { name: "GoLang", progress: 25, className: "golang-progress", years: 0.5 },
-    { name: "VHDL", progress: 25, className: "vhdl-progress", years: 0.2 },
+    { name: "C++", progress: 25, className: "C++-progress", years: 1 },
+    { name: "NodeJS", progress: 25, className: "NodeJS-progress", years: 0.5 },
+    { name: "Type Script", progress: 25, className: "Type Script-progress", years: 0.2 },
   ]);
 
   return (
