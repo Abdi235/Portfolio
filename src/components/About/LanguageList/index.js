@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import ProgressBar from "../ProgressBar";
+import ProgressBar from './ProgressBar'; // ✅ CORRECT
+
 import "./index.scss"
 
 const LanguageList = () => {
