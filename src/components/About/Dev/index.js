@@ -1,4 +1,5 @@
-import ProgressBar from '../ProgressBar';
+
+import "./index.scss"; 
 
 import AnimatedLetters from "../../AnimatedLetters"
 import { useEffect, useState } from "react";
